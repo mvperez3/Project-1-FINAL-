@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+
+@font-face {
+    font-family: varelaround;
+    src: url(../media/fonts/varela-round/VarelaRound-Regular.otf);
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ body{
+        background-image: url('../media/images/pink.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat
+ }
+/* the background attackment:fixed is so the whole background covers the page but as you scroll the words move */
+ h1{
+    text-align:center;
+    font-family: varelaround;
+ }
+
+ h2{
+   font-family: varelaround;  
+   text-align:center;
+   text-decoration:underline;
+ }
+
+ h3{
+   text-align: center;
+   font-family: 'Handjet', cursive;
+  font-size: 25px;
+ }
+
+
+
+ .instructions{
+    text-align:center;
+    font-family: 'Handjet', cursive;
+    font-size:20px;
+    margin:auto;
+  width:700px;
+  line-height: 25px;
+  background-color: white;
+  border:solid 5px rgb(255, 105, 130);  
+  border-radius:8px;
+    
+
+    
+ }
+
+ div.container {
+   text-align: center;}
+
+ ul.myUL{
+   display: inline-block;
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-size:20px;
+    border: solid 5px  rgb(255, 105, 130); 
+    background-color: white;
+    width:200px;
+    border-radius: 8px;
+ }
+
+ .bolded{
+   font-weight: bold;
+ }
+
+ iframe{
+   position:relative;
+  left:350px;
+  top:25px;
+ } 
+
+
+ .gif{
+
+  width:300px;
+  height:200px;
+ }
+
+
+ .back{
+  border:none;
+ background-color: transparent;
+  padding:10px;
+  font-family: varelaround;
+  font-size: 15px;
+  position:absolute;
+  left:600px;
+  top:1520px;
+ }

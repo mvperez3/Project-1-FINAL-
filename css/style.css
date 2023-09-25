@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+/* google fonts at the very top */
+
+
+body{
+background-image: url('../media/images/ds.png');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+
+
+
+
+
+@font-face {
+  font-family: varelaround;
+  src: url(../media/fonts/varela-round/VarelaRound-Regular.otf);
+}
+
+audio{
+  position:absolute;
+  left:500px;
+  top:175px;
+}
+
+
+h1{
+color:rgb(255, 85, 113);
+text-align: center;
+font-family: varelaround;
+top:40px;
+}
+
+
+  
+
+p {
+    text-align:center;
+    font-family: 'Handjet', cursive;
+    font-size:24px;
+    position:relative;
+    top:80px;
+}
+
+.dino{
+ 
+  font-family: 'Handjet', cursive;
+  font-size:24px;
+  position:relative;
+  left:420px;
+  top:550px; 
+  text-decoration: none;
+  color:black
+}
+
+.recipe1 {
+background-color:rgb(255, 105, 130);  
+color:white;
+text-align:center;
+font-family: varelaround;
+padding:5px;
+width:200px;
+height:200px;
+border-radius: 8px;
+position:absolute;
+right:680px;
+top:300px;
+}
+
+.pudding{
+  width:170px;
+  height:130px;
+  border-radius:8px;
+  position:absolute;
+  top:55px ;
+  left:20px;
+}
+
+.pressA{
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  top:120px;
+}
+.a{
+  border:none;
+  background-color:transparent;
+  padding:10px;
+  font-family: varelaround;
+  font-size: 30px;
+  color:white;
+  position:absolute;
+  right:70px;
+  top:810px;
+}
+
+
+
+.recipe2{
+  font-family: varelaround;
+ color:white;
+  background-color:rgb(164, 164, 255);
+  text-align:center;
+  padding:5px;
+  width:200px;
+  height:200px;
+  position:absolute;
+  border-radius:8px;
+  right:375px;
+  top: 300px;
+  /* right:-40rem;
+  top:-20.5rem; */
+}
+
+.jelly{
+  width:170px;
+  height:130px;
+  border-radius: 8px;
+  position:absolute;
+  left:20px;
+  top:55px;
+}
+
+.pressB{
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  top:120px;
+}
+.b{
+  border:none;
+  background-color:transparent;
+  padding: 10px;
+  font-family: varelaround;
+  font-size: 30px;
+  color:white;
+  position:absolute;
+  right:147px;
+  top:870px;
+}
+
+
+
+ .recipe3{
+  font-family: varelaround;
+  color:white;
+  background-color:rgb(147, 255, 147);
+  text-align: center;
+  padding:5px;
+  width:200px;
+  height:200px;
+  position:absolute;
+  border-radius:8px;
+  right:680px;
+  top:860px;
+}
+
+.cutlet{
+  width:180px;
+  height:130px;
+  border-radius:8px;
+  position:absolute;
+  right:15px;
+  top:55px;
+}
+
+.pressX{
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  top:120px;
+}
+
+.x{
+  border:none;
+  background-color:transparent;
+  padding: 10px;
+  font-family: varelaround;
+  font-size: 30px;
+  color:white;
+  position:absolute;
+  right:145px;
+  top:750px;
+}
+
+.recipe4{
+  color:white;
+  font-family: varelaround;
+  background-color:rgb(250, 250, 142);
+  text-align: center;
+  padding:5px;
+  width:200px;
+  height:200px;
+  position:absolute;
+  border-radius:8px;
+  right:380px;
+  top:860px;
+}
+ 
+
+.pressY{
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  top:120px;
+}
+.y{
+  border:none;
+  background-color:transparent;
+  padding:10px;
+  font-family: varelaround;
+  font-size: 30px;
+  color:white;
+  position:absolute;
+  right:215px;
+  top:810px;
+}
+
+.egg{
+  width:180px;
+  height:130px;
+  border-radius:8px;
+  position:absolute;
+  left:15px;
+  top:60px;
+}
+
+.empty{
+  width:100px;
+  height:300px;
+  position: absolute;
+  top:900px;
+
+}
+
+.music{
+  position: absolute;
+  font-family: 'Handjet', cursive;
+  color:white;
+  font-size: 20px;
+  right:90px;
+  top:1020px;
+}
+.games{
+  position: absolute;
+  font-family: 'Handjet', cursive;
+  color:white;
+  font-size: 20px;
+  right:90px;
+  top:1090px;
+}
+}
+/* 
+.chop img{  
+  width:230px;
+  height:180px;
+  border-radius:8px;
+  position:absolute;
+  top:550px;
+} */ 
+
+
+
+/* add a space after the name and then type img to target the img */

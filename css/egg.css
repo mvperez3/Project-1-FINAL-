@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+
+@font-face {
+    font-family: varelaround;
+    src: url(../media/fonts/varela-round/VarelaRound-Regular.otf);
+  }
+
+
+
+
+body{
+background-image: url(../media/images/madmama.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+h1{
+    text-align:center;
+    font-family: varelaround;
+}
+
+
+h2{
+  font-family: varelaround;  
+  text-align:center;
+  text-decoration:underline;
+  }
+  
+  h3{
+    text-align: center;
+    font-family: 'Handjet', cursive;
+   font-size: 25px;
+  }
+
+
+
+
+   .bolded{
+    font-weight: bold;
+  }
+
+
+  .instructions{
+    text-align:left;
+    font-family: 'Handjet', cursive;
+    font-size:20px;
+    margin:auto;
+    width:700px;
+    line-height: 25px;
+    background-color: white;
+    border:solid 5px rgb(250, 250, 142);
+    border-radius:8px;
+    
+    }
+
+
+ div.container {
+    text-align: center;}
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-size:20px; 
+    border: solid 5px rgb(250, 250, 142); 
+    background-color: white;
+     width:200px;
+    border-radius: 8px;
+  }
+
+
+  iframe{
+    position:relative;
+   left:350px;
+   top:5px;
+  } 
+
+  .mad img{
+    position: absolute;
+    width:350px;
+    height:200px;
+    top:1200px;
+    left:450px;
+  }
+
+
+  
+   .back{
+    border:none;
+    background-color:transparent;
+    padding: 10px;
+    font-family: varelaround;
+    font-size: 15px;
+    position:absolute;
+    left:600px;
+    top:1400px;
+  }

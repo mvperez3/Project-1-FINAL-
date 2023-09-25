@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+
+@font-face {
+    font-family: varelaround;
+    src: url(../media/fonts/varela-round/VarelaRound-Regular.otf);
+  }
+
+ body{
+  background-image: url(../media/images/purplebackground.jpg);
+ }
+
+  h1{
+    text-align: center;
+    font-family: varelaround;
+ }
+
+ h3{
+  text-align: center;
+  font-family: 'Handjet', cursive;
+  font-size: 25px;
+ }
+
+  h2{
+    font-family: varelaround;  
+    text-align:center;
+    text-decoration:underline;
+}
+
+.picto img{
+  position: absolute;
+  width:250px;
+  height:200px;
+  left:100px;
+  top:270px;
+  
+  
+}
+
+
+.remember {
+  position: absolute;
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  top:480px;
+  left:150px;
+}
+
+
+.timer img{
+  width:130px;
+  height:130px;
+  position: absolute;
+  top:100px;
+  left:150px;
+}
+
+.psst p{
+  position: absolute;
+  left:150px;
+  top:200px;
+}
+  .instructions{
+  font-family: 'Handjet', cursive;
+  font-size:20px;
+  margin:auto;
+  width:700px;
+  line-height: 25px;
+  background-color: white;
+  border:solid 5px rgb(203, 116, 203);
+  border-radius:8px;
+  
+  }
+
+  p{
+    font-family: 'Handjet', cursive;
+    font-size:20px;
+    text-align: center;
+  }
+    
+
+
+  div.container {
+    text-align: center;}
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-size:20px; 
+    border: solid 5px rgb(203, 116, 203);
+    background-color: white;
+     width:200px;
+    border-radius: 8px;
+   
+
+  }
+
+
+
+ 
+iframe{
+  position:relative;
+ left:320px;
+ top:10px;
+} 
+
+
+
+.back{
+ border: none;
+   background-color: transparent;
+  padding:10px;
+  font-family: varelaround;
+  font-size: 15px;
+  position:absolute;
+  left:600px;
+  top:1600px;
+}
+
